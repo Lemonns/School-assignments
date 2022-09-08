@@ -18,7 +18,7 @@ int main(void)
 
     printf("%s %s\n", fName, lName);
     printf("%*d %*d\n\n", fLength, fLength, lLength, lLength); //Prints the length of each name and makes sure the integer 
-                                                           //is right justified
+                                                               //is right justified
     float fvar;
     double dvar;
 
