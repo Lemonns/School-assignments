@@ -33,8 +33,8 @@ int main(void)
 /*
 
 HW #3: Trey Marlette
-Enter your first and last name (separate with a space): Trey Marleete
-Trey Marleete
+Enter your first and last name (separate with a space): Trey Marlette
+Trey Marlette
    4        8
 
 0.3333 0.333333343267 0.3333333432674408
