@@ -12,7 +12,7 @@ int main(void)
     int inches;
 
     printf("Enter your height in inches and your first name. (type 'q' to quit): "); 
-    while (scanf("%d%24s", &heightInches, name) && name[0] > 1)
+    while (scanf("%d%24s", &heightInches, name) > 1)
     {
         feet = heightInches / 12;
         inches = heightInches % 12;
