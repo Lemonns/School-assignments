@@ -1,4 +1,5 @@
 //HW #4: Trey Marlette
+//Option #1
 #include <stdio.h>
 
 int main(void)
@@ -6,14 +7,16 @@ int main(void)
     printf("HW #4: Trey Marlette\n");
 
     char name[25];
-    int heightInches, feet, inches; 
+    int heightInches;
+    int feet;
+    int inches;
 
     printf("Enter your height in inches and your first name. (type 'q' to quit): "); 
-    while (scanf("%d%24s", &heightInches, name) && name[0] != 'q') //Continues to loop until user enter q
+    while (scanf("%d%24s", &heightInches, name) && name[0] > 1)
     {
-        feet = heightInches / 12; //Converts user inches into feet
-        inches = heightInches % 12; //Left over inches
-        printf("%s's height is %d foot %d inches.\n", name, feet, inches); 
+        feet = heightInches / 12;
+        inches = heightInches % 12;
+        printf("%s's height is %d foot %d inches.\n", name, feet, inches);
 
         printf("Enter your height in inches and your first name. (type 'q' to quit): "); 
     }
